@@ -1,0 +1,340 @@
+/* module css 02
+ -----------------------------------------------------*/
+.color-red {
+  color: #e60012;
+}
+
+.txt-required {
+  color: #e60012;
+  padding: 2px 0px 0px;
+  clear: both;
+}
+
+.fw-bold {
+  font-weight: "HiraginoPr6N W6", Sans-Serif;
+}
+
+.fw-bold-normal {
+  font-weight: "HiraKakuProN W6", Sans-Serif;
+}
+
+.pdb-01 {
+  padding-bottom: 57px;
+}
+
+.pdt-01 {
+  padding-top: 58px;
+}
+
+.aln-center {
+  text-align: center;
+}
+
+.aln-right {
+  text-align: right;
+}
+
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
+
+.smd-back a {
+  color: #4f4f4f;
+}
+
+.break-down {
+  display: block;
+}
+
+.stepContainer {
+  height: 100% !important;
+}
+
+.actionBar {
+  display: none !important;
+}
+
+.smd-text-label label {
+  background: #959ea8;
+  padding: 10px 40px;
+  color: #FFF;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.smd-textarea-normal .ui.form {
+  display: table;
+  width: 100%;
+}
+.smd-textarea-normal .ui.form .frm-left {
+  display: table-cell;
+}
+.smd-textarea-normal .ui.form .frm-button {
+  display: table-cell;
+  vertical-align: bottom;
+  width: 90px;
+  text-align: right;
+}
+.smd-textarea-normal .ui.form .frm-button .btn-normal {
+  padding: 5px 10px;
+}
+
+.smd-text-data {
+  min-width: 200px;
+  padding: 9px 11px 2px 6px;
+  background: #FFF;
+  -webkit-box-shadow: inset 0px 0px 0px 1px #d2d2d2;
+          box-shadow: inset 0px 0px 0px 1px #d2d2d2;
+  font-size: 13px;
+  color: #4f4f4f;
+  position: relative;
+}
+.smd-text-data .text-data {
+  min-height: 120px;
+}
+.smd-text-data:after {
+  content: "";
+  width: 6px;
+  height: 100%;
+  display: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background: url(../images/bg-hover-poup.jpg) repeat-y right;
+}
+.smd-text-data:hover:after {
+  display: block;
+}
+
+.md-seting-checkbox {
+  background: #eeeeee;
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+  border: 1px solid #959ea8;
+}
+.md-seting-checkbox .title {
+  float: left;
+  margin: 5px 0px 0px;
+}
+.md-seting-checkbox .smd-toggle-checkbox {
+  float: left;
+}
+
+.md-nav-sidebar ul {
+  float: right;
+  padding: 0px 30px 0px 0px;
+  text-align: right;
+}
+.md-nav-sidebar ul li {
+  display: block;
+  margin: 0px 0px 38px;
+}
+.md-nav-sidebar ul li ul {
+  display: none;
+  width: 100%;
+  margin: 0px 0px 0px;
+  padding: 9px 0px 23px 0px;
+}
+.md-nav-sidebar ul li ul.active {
+  display: block;
+}
+.md-nav-sidebar ul li ul .current-menu-item a {
+  text-decoration: underline;
+  color: #4f4f4f;
+  display: inline-block;
+}
+.md-nav-sidebar ul li ul li {
+  margin: 0px 0px 14px;
+}
+.md-nav-sidebar ul li a {
+  display: block;
+  color: #979797;
+  font-weight: 600;
+}
+.md-nav-sidebar ul li.current-menu-item a, .md-nav-sidebar ul li:hover a {
+  text-decoration: underline;
+  color: #4f4f4f;
+  display: inline-block;
+}
+.md-nav-sidebar ul li.current-menu-item ul .current-menu-item a, .md-nav-sidebar ul li:hover ul .current-menu-item a {
+  text-decoration: underline;
+  color: #4f4f4f;
+  display: inline-block;
+}
+.md-nav-sidebar ul li.current-menu-item ul li a, .md-nav-sidebar ul li:hover ul li a {
+  text-decoration: none;
+  color: #979797;
+}
+.md-nav-sidebar ul li.current-menu-item, .md-nav-sidebar ul li:hover ul li a {
+  text-decoration: none;
+  color: #979797;
+}
+.md-nav-sidebar ul li.current-menu-item, .md-nav-sidebar ul li ul li a:hover {
+  text-decoration: underline;
+  color: #4f4f4f;
+}
+
+.smd-toggle-checkbox {
+  text-align: left;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox {
+  margin: 0;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox label {
+  position: relative;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox label span {
+  position: relative;
+  z-index: 50;
+  color: #FFF;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox label:before {
+  background: #085e9f;
+  border-radius: 3px;
+  width: 70px;
+  height: 24px;
+  z-index: 40;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox label:after {
+  background: #e5e5e5;
+  border: 2px solid #959595;
+  border-radius: 3px;
+  width: 24px;
+  height: 24px;
+  z-index: 40;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox input ~ label {
+  padding: 4px 0px 0px 25px;
+  display: inline-block;
+  width: 70px;
+  height: 24px;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox input ~ label .on {
+  display: none;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox input ~ label .off {
+  display: inline-block;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox input ~ label:before {
+  background: #696f76;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox input:checked ~ label {
+  padding: 4px 0px 0px 10px;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox input:checked ~ label .on {
+  display: inline-block;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox input:checked ~ label .off {
+  display: none;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox input:checked ~ label:after {
+  left: 46px;
+  top: 0px;
+}
+.smd-toggle-checkbox .ui.toggle.checkbox input:checked ~ label:before {
+  background: #085e9f !important;
+}
+.smd-toggle-checkbox.en-lang .ui.toggle.checkbox input ~ label {
+  padding: 4px 0px 0px 30px;
+}
+.smd-toggle-checkbox.en-lang .ui.toggle.checkbox input:checked ~ label {
+  padding: 4px 0px 0px 15px;
+}
+.smd-toggle-checkbox.medium .ui.toggle.checkbox input ~ label {
+  padding: 4px 0px 0px 32px;
+}
+.smd-toggle-checkbox.medium .ui.toggle.checkbox input:checked ~ label {
+  padding: 4px 0px 0px 13px;
+}
+
+.smd-edit-button span, .smd-edit-button a {
+  cursor: pointer;
+  width: 40px;
+  height: 34px;
+  display: inline-block;
+  background: url(../images/ico-edit-03.png) no-repeat center center;
+}
+.smd-edit-button.disabled span, .smd-edit-button.disabled a {
+  background: url(../images/ico-edit-02.png) no-repeat center center;
+}
+
+.md-list-dt {
+  clear: both;
+}
+.md-list-dt .item {
+  margin: 0px 0px 40px;
+}
+.md-list-dt .item h4 {
+  background: #959ea8;
+  padding: 5px 10px;
+  color: #FFF;
+  font-weight: bold;
+  margin: 0px 0px 20px;
+}
+.md-list-dt .item .information {
+  padding: 5px 10px 0px 10px;
+}
+.md-list-dt .item .information.no-pd {
+  padding: 0px;
+}
+.md-list-dt .item .information .form-control {
+  height: 50px;
+}
+
+.md-dropdown-option {
+  display: inline-block;
+}
+.md-dropdown-option .ui.dropdown {
+  padding: 10px 38px 10px 28px;
+}
+.md-dropdown-option .ui.dropdown .default.text {
+  color: #FFF;
+}
+.md-dropdown-option .ui.dropdown .menu {
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #959ea8;
+  border: 1px solid #959ea8;
+}
+.md-dropdown-option .ui.dropdown .menu > .item {
+  color: #FFF;
+  padding: 10px 28px 10px 28px !important;
+}
+.md-dropdown-option .ui.dropdown .menu > .item:hover {
+  background: #bbbfc3;
+}
+.md-dropdown-option .ui.dropdown .dropdown.icon {
+  position: absolute;
+  right: 13px;
+  top: 13px;
+}
+.md-dropdown-option .ui.dropdown .dropdown.icon:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: block;
+  background: url(../images/icon-arrow-down.png) no-repeat center center !important;
+  text-indent: -9999px;
+  display: block;
+}
+
+.tbl-big-01 tr th.col-1 {
+  width: 10%;
+}
+.tbl-big-01 tr th.col-2 {
+  width: 20%;
+}
+.tbl-big-01 tr th.col-3 {
+  width: 20%;
+}
+.tbl-big-01 tr th.col-4 {
+  width: 5%;
+}
+.tbl-big-01 tr td.rating {
+  min-width: 273px;
+}

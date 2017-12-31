@@ -1,0 +1,119 @@
+/* header
+ -----------------------------------------------------*/
+.page-header {
+  min-height: 153px;
+}
+
+.md-top-header {
+  padding: 40px 0px 25px;
+}
+
+.bk-nav-destop {
+  background: #1b4f88;
+}
+.bk-nav-destop.bg-black-navy-blue {
+  background: #3a5168;
+}
+.bk-nav-destop .md-nav-normal {
+  float: left;
+}
+.bk-nav-destop .md-nav-option {
+  float: right;
+}
+
+.md-nav-normal ul {
+  margin: 0px 0px 0px -50px;
+}
+.md-nav-normal ul li {
+  float: left;
+  margin: 0px 0px 0px 50px;
+}
+.md-nav-normal ul li a {
+  color: #FFF;
+  padding: 19px 0px 18px;
+  display: block;
+}
+.md-nav-normal ul li.current-menu-item a {
+  font-weight: 700;
+}
+
+.md-nav-option ul {
+  margin: 0px -100px 0px 0px;
+}
+.md-nav-option ul li {
+  position: relative;
+  float: left;
+  margin: 0px 100px 0px 0px;
+}
+.md-nav-option ul li:hover ul {
+  display: block;
+  z-index: 200;
+}
+.md-nav-option ul li a {
+  position: relative;
+  padding: 19px 10px 18px 10px;
+  color: #FFF;
+  display: block;
+  text-transform: uppercase;
+}
+.md-nav-option ul li a img {
+  margin: 0px 10px 0px 0px;
+}
+.md-nav-option ul li.has-sub-menu a {
+  padding: 19px 35px 18px 30px;
+}
+.md-nav-option ul li.has-sub-menu a:after {
+  content: "";
+  background: url(../images/icon-arrow-down.png) no-repeat center center;
+  display: block;
+  width: 15px;
+  height: 8px;
+  position: absolute;
+  right: 0px;
+  top: 25px;
+}
+.md-nav-option ul li.has-sub-menu ul li a:after {
+  display: none;
+}
+.md-nav-option ul li.has-user {
+  padding-left: 30px;
+}
+.md-nav-option ul li.has-user a {
+  padding: 19px 35px 18px 30px;
+}
+.md-nav-option ul li.has-user a .avatar {
+  display: block;
+  width: 16px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 17px;
+}
+.md-nav-option ul li.has-user ul {
+  left: 0px;
+}
+.md-nav-option ul li.has-user ul li {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+.md-nav-option ul li.has-user ul li a {
+  display: block;
+  padding: 11px 35px 12px 60px;
+}
+.md-nav-option ul li.has-user ul li a:before {
+  display: none;
+}
+.md-nav-option ul li ul {
+  position: absolute;
+  top: 100%;
+  background: #1b4f88;
+  width: 225px;
+  display: none;
+}
+.md-nav-option ul li ul li {
+  float: none;
+  margin: 0px 0px 0px 0px;
+}
+.md-nav-option ul li ul li a {
+  padding: 11px 35px 12px 30px;
+}

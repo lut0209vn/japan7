@@ -1,0 +1,381 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ja"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="ja"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ja"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="ja"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Example</title>
+  <link  href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link  href="vendor/fontawesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link  href="vendor/semantic/semantic.min.css" rel="stylesheet" media="screen">
+  <link  href="vendor/mCustomScrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" media="screen">
+  <link  href="vendor/smartwizard/smartwizard.css" rel="stylesheet" media="screen">  
+  <link  href="vendor/dropzone/dropzone.css" rel="stylesheet" media="screen">
+  <link  href="css/style.css" rel="stylesheet" media="screen">
+  <script src="vendor/initializr/modernizr-2.8.3-respond-1.4.2.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="container">
+    <div class="md-top-header">
+      <div class="logo">
+        <a href="#"><img src="images/logo.png" alt=""></a>
+      </div><!-- .logo -->
+    </div><!-- .md-top-header -->
+  </div><!-- .container-->
+  <div class="bk-nav-destop">
+    <div class="container">
+      <div class="md-nav-option">
+        <ul>
+          <li>
+            <a href="#">
+              Top
+            </a>
+          </li>
+          <li class="has-sub-menu">
+            <a href="#">
+              <span>ヘルプ</span>
+            </a>
+            <ul>
+              <li><a href="#">田中 祐介</a></li>
+              <li><a href="#">田中 祐介</a></li>
+            </ul>
+          </li>
+          <li class="has-sub-menu has-user">
+            <a href="#">
+              <div class="avatar">
+                <img src="images/icon-user.png" alt="">
+              </div><!-- .avatar -->
+              <span>田中 祐介</span>
+            </a>
+            <ul>
+              <li><a href="#">田中 祐介</a></li>
+              <li><a href="#">田中 祐介</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- .md-nav-option -->
+    </div><!-- .container -->
+  </div><!-- .bk-nav-destop -->
+</header>
+<!-- /.page-header -->
+
+<main class="page-main page-main-01 page-u501">
+  <div class="container">
+    <div class="ctn-page-has-sidebar">
+      <div class="bk-sidebar">
+        <div class="md-nav-sidebar">
+          <ul>
+            <li class="current-menu-item"><a href="#">ユーザー一覧</a></li>
+            <li><a href="#">新規ユーザー登録</a></li>
+            <li><a href="#">セキュリティ</a></li>
+          </ul>
+        </div><!-- .md-nav-sidebar -->
+      </div><!-- .md-sidebar -->
+      <div class="bk-main-content">
+        <div class="md-title-normal">
+          <h1>管理設定</h1>
+        </div><!-- .md-title-normal -->
+        <p class="margin-bottom">現在ユーザー　　名</p>
+        <table class="table table-normal md-table-02 table-sorter table-sorter-1 tbl-row-space">
+          <thead>
+            <tr>
+              <th class="w10">
+                アカウント<br>有効/無効</th>
+              <th class="w10">最終ログイン</th>
+              <th class="w10 option">
+                <div class="md-dropdown-option">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">氏名</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="female">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="male">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="female">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="male">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="female">最新【2017.06.14アップロード</div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th class="w10 rev">メールアドレス</th>
+              <th class="w15">最新アップロード</th>
+              <th class="w35">アップロードファイル</th>
+              <th class="w5 avatar aln-center">編集</th>
+              <th class="w5 action aln-center">削除</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="smd-toggle-checkbox medium">
+                  <div class="button-toogle-checkbox checked">
+                    <input type="checkbox">
+                    <label>
+                      <span class="on">有効</span>
+                      <span class="off">無効</span>
+                    </label>
+                  </div>
+                </div><!-- .smd-toggle-checkbox -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>前前前田 隼弥</td>
+              <td>onagi@gvalaw.jp</td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td><a href="#" class="text-decoration">【インタラクティブブレインズ】秘密保持等に関する契約書_2017-05-31.doc</a></td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">編集<span>▶︎</span></a></td>
+              <td class="aln-center"><input type="submit" value="" class="btn-delete"></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="smd-toggle-checkbox medium">
+                  <div class="button-toogle-checkbox checked">
+                    <input type="checkbox">
+                    <label>
+                      <span class="on">有効</span>
+                      <span class="off">無効</span>
+                    </label>
+                  </div>
+                </div><!-- .smd-toggle-checkbox -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>山内 啓照</td>
+              <td>nakamura@gvalaw.jp</td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td><a href="#" class="text-decoration">株式会社インタラクティブブレインズ_ソフトウェア 開発委託基本契約書ドラフトここは最大55文字でそれ以降は….doc</a></td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">編集<span>▶︎</span></a></td>
+              <td class="aln-center"><input type="submit" value="" class="btn-delete"></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="smd-toggle-checkbox medium">
+                  <div class="button-toogle-checkbox checked">
+                    <input type="checkbox">
+                    <label>
+                      <span class="on">有効</span>
+                      <span class="off">無効</span>
+                    </label>
+                  </div>
+                </div><!-- .smd-toggle-checkbox -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>田中 信也</td>
+              <td>tobioka@gvalaw.jp</td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td><a href="#" class="text-decoration">【インタラクティブブレインズ】秘密保持等に関する契約書_2017-05-31.doc</a></td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">編集<span>▶︎</span></a></td>
+              <td class="aln-center"><input type="submit" value="" class="btn-delete"></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="smd-toggle-checkbox medium">
+                  <div class="button-toogle-checkbox checked">
+                    <input type="checkbox">
+                    <label>
+                      <span class="on">有効</span>
+                      <span class="off">無効</span>
+                    </label>
+                  </div>
+                </div><!-- .smd-toggle-checkbox -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>星野 快</td>
+              <td>suzuki@gvalaw.jp</td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td><a href="#" class="text-decoration">【インタラクティブブレインズ】秘密保持等に関する契約書_2017-05-31.doc</a></td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">編集<span>▶︎</span></a></td>
+              <td class="aln-center"><input type="submit" value="" class="btn-delete"></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="smd-toggle-checkbox medium">
+                  <div class="button-toogle-checkbox">
+                    <input type="checkbox">
+                    <label>
+                      <span class="on">有効</span>
+                      <span class="off">無効</span>
+                    </label>
+                  </div>
+                </div><!-- .smd-toggle-checkbox -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>善村 彩代</td>
+              <td>onda@gvalaw.jp</td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td><a href="#" class="text-decoration">【インタラクティブブレインズ】秘密保持等に関する契約書_2017-05-31.doc</a></td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">編集<span>▶︎</span></a></td>
+              <td class="aln-center"><input type="submit" value="" class="btn-delete"></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="smd-toggle-checkbox medium">
+                  <div class="button-toogle-checkbox">
+                    <input type="checkbox">
+                    <label>
+                      <span class="on">有効</span>
+                      <span class="off">無効</span>
+                    </label>
+                  </div>
+                </div><!-- .smd-toggle-checkbox -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>石井　太</td>
+              <td>onda@gvalaw.jp</td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td><a href="#" class="text-decoration">【インタラクティブブレインズ】秘密保持等に関する契約書_2017-05-31.doc</a></td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">編集<span>▶︎</span></a></td>
+              <td class="aln-center"><input type="submit" value="" class="btn-delete"></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="smd-toggle-checkbox medium">
+                  <div class="button-toogle-checkbox checked">
+                    <input type="checkbox">
+                    <label>
+                      <span class="on">有効</span>
+                      <span class="off">無効</span>
+                    </label>
+                  </div>
+                </div><!-- .smd-toggle-checkbox -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>手島　正文</td>
+              <td>tamukai@gvalaw.jp</td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td><a href="#" class="text-decoration">【インタラクティブブレインズ】秘密保持等に関する契約書_2017-05-31.doc</a></td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">編集<span>▶︎</span></a></td>
+              <td class="aln-center"><input type="submit" value="" class="btn-delete"></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="smd-toggle-checkbox medium">
+                  <div class="button-toogle-checkbox checked">
+                    <input type="checkbox">
+                    <label>
+                      <span class="on">有効</span>
+                      <span class="off">無効</span>
+                    </label>
+                  </div>
+                </div><!-- .smd-toggle-checkbox -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>山田　花子</td>
+              <td>morita@gvalaw.jp</td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td><a href="#" class="text-decoration">【インタラクティブブレインズ】秘密保持等に関する契約書_2017-05-31.doc</a></td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">編集<span>▶︎</span></a></td>
+              <td class="aln-center"><input type="submit" value="" class="btn-delete"></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="md-pagination">
+          <ul class="md-pagination">
+            <li><a class="prev" href="">Prev</a></li>
+            <li><a class="active" href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a class="next" href="">Next</a></li>
+          </ul>
+        </div><!-- .md-pagination -->
+      </div><!-- .bk-main-content -->
+    </div><!-- .ctn-page-wrapper -->
+    <div id="modal-confirm-change" class="modal-confirm-change md-modal-normal modal-02 ui modal">
+      <form>
+        <div class="title-modal">
+          <p>私は本件プロジェクト</p>
+        </div><!--.title-modal-->
+        <div class="btn-modal-group actions">
+          <a href="#" class="btn-normal gray cancel">キャンセル</a>
+          <a href="#" class="btn-normal button-confirm">キャンセル</a>
+        </div><!--.btn-modal-group -->
+      </form>
+    </div><!-- .md-modal-normal-->
+  </div>
+</main>
+<!-- /.page-main -->
+
+<footer class="page-footer">
+  
+</footer>
+<!-- /.page-footer -->
+
+<script src="vendor/jquery/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="vendor/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+<script src="vendor/semantic/semantic.min.js" type="text/javascript"></script>
+<script src="vendor/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+<script src="vendor/smartwizard/jquery.smartwizard.js" type="text/javascript"></script>
+<script src="vendor/tablesorter/jquery.tablesorter.js" type="text/javascript"></script>
+<script src="vendor/dropzone/dropzone.js" type="text/javascript"></script>
+<script src="scripts/main.js" type="text/javascript"></script>
+</body>
+</html>
+

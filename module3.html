@@ -1,0 +1,645 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ja"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="ja"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ja"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="ja"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Example</title>
+  <link  href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link  href="vendor/fontawesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link  href="vendor/semantic/semantic.min.css" rel="stylesheet" media="screen">
+  <link  href="vendor/mCustomScrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" media="screen">
+  <link  href="vendor/smartwizard/smartwizard.css" rel="stylesheet" media="screen">  
+  <link  href="vendor/dropzone/dropzone.css" rel="stylesheet" media="screen">
+  <link  href="css/style.css" rel="stylesheet" media="screen">
+  <script src="vendor/initializr/modernizr-2.8.3-respond-1.4.2.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="container">
+    <div class="md-top-header">
+      <div class="logo">
+        <a href="#"><img src="images/logo.png" alt=""></a>
+      </div><!-- .logo -->
+    </div><!-- .md-top-header -->
+  </div><!-- .container-->
+  <div class="bk-nav-destop">
+    <div class="container">
+      <div class="md-nav-normal">
+        <ul class="clearfix">
+          <li class="current-menu-item"><a href="#">契約者リスト</a></li>
+          <li><a href="#">ユーザーリスト</a></li>
+          <li><a href="#">ヘルプ</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div class="md-nav-option">
+        <ul>
+          <li>
+            <a href="#">
+              <span>田中 祐介</span>
+            </a>
+            <ul>
+              <li><a href="#">田中 祐介</a></li>
+              <li><a href="#">田中 祐介</a></li>
+            </ul>
+          </li>
+          <li class="has-user">
+            <a href="#">
+              <div class="avatar">
+                <img src="images/icon-user.png" alt="">
+              </div><!-- .avatar -->
+              <span>田中 祐介</span>
+            </a>
+            <ul>
+              <li><a href="#">田中 祐介</a></li>
+              <li><a href="#">田中 祐介</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- .md-nav-option -->
+    </div><!-- .container -->
+  </div><!-- .bk-nav-destop -->
+</header>
+<!-- /.page-header -->
+
+<main class="page-main">
+  <div class="form-normal form-normal-1">
+    <form class=""  method="post">
+      <div class="title">
+        <h3>パスワードの再設定</h3>
+      </div>
+      <div class="content">
+        <div class="text">
+          <p>パスワード再設定用のURLが記載されたメールを送信します。</p>
+          <p>メールアドレスを入力してください</p>
+        </div><!-- .text -->
+        <input type="text" name="" value="">
+      </div><!-- .content -->
+      <div class="btn-group">
+        <a class="btn-normal gray">戻る</a>
+        <a class="btn-normal">ログイン</a>
+      </div><!-- .btn-group -->
+    </form>
+  </div><!-- .form-normal -->
+  <div class="form-normal form-normal-2">
+    <form class=""  method="post">
+      <div class="title">
+        <h3>パスワードのリセットが完了しました</h3>
+      </div>
+      <div class="content">
+        <p>
+          <label for="">ID(メールアドレス)</label>
+          <input type="text" name="" value="">
+        </p>
+        <p>
+          <label for="">パスワード</label>
+          <input type="text" name="" value="">
+        </p>
+      </div><!-- .content -->
+      <div class="ui checkbox">
+        <div class="center">
+          <input type="checkbox" name="example">
+          <label class="label-center">次回ログインからIDの入力を省略する</label>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="btn-normal">ログイン</a>
+      </div><!-- .btn-group -->
+    </form>
+  </div><!-- .form-normal -->
+  <table class="table tbl-row-space tbl-2col">
+  <tbody>
+    <tr>
+      <th scope="row">販売社名</th>
+      <td>株式会社○○○</td>
+    </tr>
+    <tr>
+      <th scope="row">運営統括責任者</th>
+      <td>山田 太郎</td>
+    </tr>
+    <tr>
+      <th scope="row">所在地</th>
+      <td>〒000-0000 <br>○○都○○区○○1-1-11</td>
+    </tr>
+    <tr>
+      <th scope="row">電話番号</th>
+      <td>000-0000-000</td>
+    </tr>
+    <tr>
+      <th scope="row">メールアドレス</th>
+      <td>abcdefg@higklmn.co.jp</td>
+    </tr>
+    <tr>
+      <th scope="row">販売URL</th>
+      <td>http//www.abcdefghi.co.jp</td>
+    </tr>
+    <tr>
+      <th scope="row">お支払い方法</th>
+      <td>クレジットカード <br>代金引換</td>
+    </tr>
+    <tr>
+      <th scope="row">商品代金以外の必要金額</th>
+      <td>代金引換の場合、代引き手数料<br>
+代引き手数料：１万円未満●円　３万円未満●円　３万円以上●円　<br>
+送料：本州●円　四国・九州・北海道：●円　沖縄：●円離島料金は掛かりません。</td>
+    </tr>
+    <tr>
+      <th scope="row">1</th>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">商品引き渡し時期</th>
+      <td>前払いの場合、指定日が無ければ入金確認後●営業日以内で発送致します。 <br>
+代引の場合、指定日が無ければご注文確認後●日営業日以内で発送致します。<br>
+その他の場合、指定日が無ければご注文後●日営業日以内で発送致します。<br>
+後払いの場合、商品到着後●日以内にご入金ください。</td>
+    </tr>
+    <tr>
+      <th scope="row">商品引き渡し方法</th>
+      <td>当方にて手配後、運送会社による配送</td>
+    </tr>
+    <tr>
+      <th scope="row">返品・不良品について</th>
+      <td>「不良品・当社の商品の間違え」の場合は当社が負担いたします。<br>
+配送途中の破損などの事故がございましたら、弊社までご連絡下さい。<br>
+送料・手数料ともに弊社負担で早急に新品をご送付致します。<br>
+
+【返品対象】<br>
+「不良品・当社の商品の間違え」の場合<br>
+
+【返品時期】<br>
+ご購入後●日以内にご連絡があった場合に返金可能となります。<br>
+
+【返品方法】<br>
+メールにて返金要請してください。<br>
+●日以内にご購入代金を指定の口座へお振込いたします。</td>
+    </tr>
+    <tr>
+      <th scope="row">表現、及び商品に関する注意書き</th>
+      <td>本商品に示された表現や再現性には個人差があり、<br>
+必ずしも利益や効果を保証したものではございません。</td>
+    </tr>
+  </tbody>
+</table>
+<div class="smd-frm-style md-frm-register">
+  <h3 class="title">新規ユーザー登録</h3>
+  <form class="" action="" method="post">
+    <div class="clearfix item">
+      <label for="">新規ユーザー　登録</label>
+      <div class="right-content">
+        <input type="text" class="input-mini"name="" value="" placeholder="田向">
+        <input type="text"class="input-mini"name="" value="" placeholder="祐介">
+      </div><!-- .right-content -->
+    </div>
+    <div class="clearfix item">
+      <label for="">メールアドレス</label>
+      <div class="right-content">
+        <input type="text" name="" value="" placeholder="xxxx@example.com">
+      </div><!-- .right-content -->
+    </div><!-- .item -->
+    <div class="clearfix item">
+      <label for="">メールアドレス(確認用)</label>
+      <div class="right-content">
+        <input type="text" name="" value="" placeholder="xxxx@example.com">
+      </div><!-- .right-content -->
+    </div>
+    <div class="btn-group btn-center">
+      <a class="btn-normal">登録</a>
+    </div><!-- .btn-group -->
+  </form>
+</div><!-- .md-frm-register -->
+<div class="smd-frm-style md-changer-register">
+  <h3 class="title">新規ユーザー登録</h3>
+  <form class="" action="" method="post">
+    <div class="clearfix item">
+      <label for="">新規ユーザー　登録</label>
+      <div class="right-content">
+        <input type="text" class="input-mini"name="" value="" placeholder="田向">
+        <input type="text"class="input-mini"name="" value="" placeholder="祐介">
+      </div><!-- .right-content -->
+    </div>
+    <div class="clearfix item">
+      <label for="">メールアドレス</label>
+      <div class="right-content">
+        <input type="text" name="" value="" placeholder="xxxx@example.com">
+      </div><!-- .right-content -->
+    </div>
+    <div class="clearfix item">
+      <label for="">メールアドレス(確認用)</label>
+      <div class="right-content">
+        <input type="text" name="" value="" placeholder="xxxx@example.com">
+      </div><!-- .right-content -->
+    </div>
+    <div class="clearfix item">
+      <label for="">メールアドレス(確認用)</label>
+      <div class="ui checkbox">
+        <input type="checkbox" name="example">
+        <label class="label-ui">(チェックして「変更」をクリックすると、パスワードがリセットされます。）</label>
+      </div>
+    </div>
+    <div class="btn-group btn-center">
+      <a class="btn-normal gray">キャンセル</a>
+      <a class="btn-normal">登録</a>
+    </div><!-- .btn-group -->
+  </form>
+</div><!-- .md-frm-register -->
+<div class="smd-frm-style md-company-register">
+  <h3 class="title">新規企業マスタアカウント登録</h3>
+  <form class="" action="" method="post">
+    <div class="item clearfix">
+      <label for="">企業名</label>
+      <div class="right-content">
+        <input type="text" name="" value="" placeholder="AAAAA株式会社">
+      </div><!-- .right-content -->
+    </div>
+    <div class="clearfix item">
+      <label for="">担当者 氏名</label>
+      <div class="right-content">
+        <input type="text" class="input-mini"name="" value="" placeholder="田向">
+        <input type="text"class="input-mini"name="" value="" placeholder="祐介">
+      </div><!-- .right-content -->
+    </div>
+    <div class="clearfix item">
+      <label for="">メールアドレス</label>
+      <div class="right-content">
+        <input type="text" name="" value="" placeholder="xxxx@example.com">
+      </div><!-- .right-content -->
+    </div>
+    <div class="clearfix item">
+      <label for="">メールアドレス(確認用)</label>
+      <div class="right-content">
+        <input type="text" name="" value="" placeholder="xxxx@example.com">
+      </div><!-- .right-content -->
+    </div>
+    <div class="clearfix item">
+      <label for="">担当弁護士</label>
+      <div class="right-content">
+        <div class="md-dropdown-normal">
+          <div class="ui dropdown">
+            <input type="hidden" name="gender">
+            <div class="default text">山本 俊</div>
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              <div class="item" data-value="male">山本 俊</div>
+              <div class="item" data-value="female">山本 俊</div>
+              <div class="item" data-value="male">山本 俊</div>
+              <div class="item" data-value="female">山本 俊</div>
+              <div class="item" data-value="male">山本 俊</div>
+              <div class="item" data-value="female">山本 俊</div>
+            </div>
+          </div>
+        </div><!-- .md-dropdown-normal -->
+        <span class="plus-icon">＋</span>
+      </div><!-- .right-content -->
+    </div>
+    <div class="btn-group btn-center">
+      <a class="btn-normal gray">キャンセル</a>
+      <a class="btn-normal">登録</a>
+    </div><!-- .btn-group -->
+  </form>
+</div><!-- .md-company-register -->
+<div class="md-list-faq">
+  <div class="item">
+    <div class="title-faq">
+      <h3>よくある質問１ですか？</h3>
+    </div><!-- .title -->
+    <div class="reply">
+      <p>質問の解答よくある質問です。よくある質問の解答を文章で、手順なども説明します。よくある質問です。よくある質問の解答を文章で、手順なども説明します。</p>
+      <p>質問の解答よくある質問です。よくある質問の解答を文章で、手順なども説明します。よくある質問です。よくある質問の解答を文章で、手順なども説明します。</p>
+    </div><!-- .reply -->
+  </div><!-- .item -->
+  <div class="item">
+    <div class="title-faq">
+      <h3>よくある質問１ですか？</h3>
+    </div><!-- .title -->
+    <div class="reply">
+      <p>よくある質問です。よくある質問の解答を文章で、手順なども説明します。よくある質問です。よくある質問の解答を文章で、手順なども説明します。
+      よくある質問です。よくある質問の解答を文章で、手順なども説明します。よくある質問です。よくある質問の解答を文章で、手順なども説明します。</p>
+    </div><!-- .reply -->
+  </div><!-- .item -->
+  <div class="item">
+    <div class="title-faq">
+      <h3>よくある質問１ですか？</h3>
+    </div><!-- .title -->
+    <div class="reply">
+      <p>質問の解答<br>よくある質問です。よくある質問の解答を文章で、手順なども説明します。手順なども説明します。よくある質問です。よくある質問の解答を文章で、
+  手順なども説明します。よくある質問です。よくある質問の解答を文章で、手順なども説明します。</p>
+    </div><!-- .reply -->
+  </div><!-- .item -->
+  <div class="item">
+    <div class="title-faq">
+      <h3>よくある質問１ですか？</h3>
+    </div><!-- .title -->
+    <div class="reply">
+      <p>質問の解答<br>
+  よくある質問です。よくある質問の解答を文章で、手順なども説明します。よくある質問です。よくある質問の解答を文章で、手順なども説明します</p>
+    </div><!-- .reply -->
+  </div><!-- .item -->
+</div><!-- .md-list-faq -->
+<div class="md-terms">
+  <h3 class="title-page">利用規約</h3>
+  <div class="terms-content">
+    <p class="margin-bottom">この利用規約（以下，「本規約」といいます。）は，＿＿＿＿＿（以下，「当社」といいます。）がこのウェブサイト上で提供するサービス（以下，「本サービス」と
+  いいます。）の利用条件を定めるものです。登録ユーザーの皆さま（以下，「ユーザー」といいます。）には，本規約に従って，本サービスをご利用いただきます。</p>
+    <div class="meta-content">
+      <h4 class="title">第1条(適用)</h4>
+      <p>本規約は，ユーザーと当社との間の本サービスの利用に関わる一切の関係に適用されるものとします。</p>
+    </div><!-- .meta-content -->
+    <div class="meta-content">
+      <h4 class="title">第1条(適用)</h4>
+      <p>登録希望者が当社の定める方法によって利用登録を申請し，当社がこれを承認することによって，利用登録が完了するものとします。</p>
+      <p>当社は，利用登録の申請者に以下の事由があると判断した場合，利用登録の申請を承認しないことがありその理由については一切の開示義務を負わないものとします。</p>
+      <p>（1）利用登録の申請に際して虚偽の事項を届け出た場合</p>
+      <p>（2）本規約に違反したことがある者からの申請である場合</p>
+      <p>（3）その他，当社が利用登録を相当でないと判断した場合</p>
+    </div><!-- .meta-content -->
+    <div class="meta-content">
+      <h4 class="title">第1条(適用)</h4>
+      <p>ユーザーは，自己の責任において，本サービスのユーザーIDおよびパスワードを管理するものとします。</p>
+      <p>ユーザーは，いかなる場合にも，ユーザーIDおよびパスワードを第三者に譲渡または貸与することはできません。当社は，ユーザーIDとパスワードの組み合わせが登録</p>
+      <p>情報と一致してログインされた場合には，そのユーザーIDを登録しているユーザー自身による利用とみなします。</p>
+    </div><!-- .meta-content -->
+    <div class="meta-content">
+      <h4 class="title">第1条(適用)</h4>
+      <p>ユーザーは，本サービス利用の対価として，当社が別途定め，本ウェブサイトに表示する利用料金を，当社が指定する方法により支払うものとします。</p>
+      <p>ユーザーが利用料金の支払を遅滞した場合には，ユーザーは年１４．６％の割合による遅延損害金を支払うものとします。</p>
+    </div><!-- .meta-content -->
+    <div class="meta-content">
+      <h4 class="title">第1条(適用)</h4>
+      <p>ユーザーは，本サービスの利用にあたり，以下の行為をしてはなりません。</p>
+      <p>ユーザーは，本サービスの利用にあたり，以下の行為をしてはなりません。</p>
+      <p>（1）法令または公序良俗に違反する行為</p>
+      <p>（2）犯罪行為に関連する行為</p>
+      <p>（3）当社のサーバーまたはネットワークの機能を破壊したり，妨害したりする行為</p>
+      <p>（4）当社のサービスの運営を妨害するおそれのある行為</p>
+      <p>（5）他のユーザーに関する個人情報等を収集または蓄積する行為</p>
+      <p>（6）他のユーザーに成りすます行為</p>
+      <p>（7）当社のサービスに関連して，反社会的勢力に対して直接または間接に利益を供与する行為</p>
+      <p>（8）その他，当社が不適切と判断する行為</p>
+    </div><!-- .meta-content -->
+  </div><!-- .terms-content -->
+</div><!-- .md-terms -->
+<div class="md-confirm-information">
+  <div class="item clearfix">
+    <label>氏名</label>
+    <div class="information">
+      <p>田向 祐介</p>
+    </div><!-- .information -->
+  </div><!-- .item -->
+  <div class="item clearfix">
+    <label>ID</label>
+    <div class="information">
+      <p>tamukai</p>
+    </div><!-- .information -->
+  </div><!-- .item -->
+  <div class="item clearfix">
+    <label>パスワード</label>
+    <div class="information">
+      <p>P6sZ0vbF</p>
+    </div><!-- .information -->
+  </div><!-- .item -->
+  <div class="item clearfix padding-top">
+    <label>対応可能 契約書</label>
+    <div class="information">
+      <p class="title">２４種類</p>
+      <div class="content">
+        <ul>
+          <li>業務委託契約書</li>
+          <li>経営コンサルティング契約書</li>
+          <li>WEBサイト運営・管理業務委託契約書</li>
+          <li>アドバイザリー契約書</li>
+          <li>商品販売委託(代理商)契約書</li>
+          <li>マンション管理委託契約書</li>
+          <li>商品販売委託(問屋)契約書</li>
+          <li>債権管理委託契約書</li>
+          <li>営業委託契約書</li>
+          <li>債権回収業務委託契約書</li>
+          <li>経営委託契約書</li>
+          <li>不動産の管理処分に関する信託契約書</li>
+          <li>開発業務委託契約書</li>
+          <li>金銭信託契約書</li>
+          <li>賃貸不動産管理委託契約書</li>
+          <li>株式の管理処分に関する信託契約書</li>
+          <li>清掃業務委託契約書</li>
+          <li>後継ぎ遺贈型受益者連続信託契約書</li>
+          <li>警備委託契約書</li>
+          <li>金銭の追加信託契約書</li>
+          <li>顧問契約書</li>
+          <li>信託の受託内容変更契約書</li>
+          <li>寄託契約書</li>
+          <li>受益者変更契約書</li>
+        </ul>
+      </div><!-- .content -->
+    </div><!-- .information -->
+    <div class="btn-group btn-center">
+      <a class="btn-normal gray">キャンセル</a>
+      <a class="btn-normal">登録</a>
+    </div><!-- .btn-group -->
+  </div><!-- .item -->
+</div><!-- .md-confirm-information -->
+<div class="md-reset-password">
+  <div class="avatar">
+    <img src="images/avatar-reset-password.jpg" alt="">
+    <div class="name">
+      <span class="name">写真を変更する</span>
+    </div><!-- .name -->
+  </div><!-- .avatar -->
+  <div class="smd-frm-style frm-reset-password">
+    <form class="" action="" method="post">
+      <div class="clearfix item">
+        <label for="">氏名</label>
+        <div class="right-content">
+          <span>笠井　秀行</span>
+        </div><!-- .right-content -->
+      </div>
+      <div class="clearfix item margin-bottom">
+        <label for="">メールアドレス</label>
+        <div class="right-content">
+          <span>xxxx@example.com</span>
+        </div><!-- .right-content -->
+      </div><!-- .item -->
+      <div class="item clearfix">
+        <label for="">パスワード</label>
+        <div class="right-content">
+          <input type="text" name="" value="************************" placeholder="">
+        </div><!-- .right-content -->
+      </div>
+      <div class="item clearfix">
+        <label for="">パスワード(確認用)</label>
+        <div class="right-content">
+          <input type="text" name="" value="************************" placeholder="">
+        </div><!-- .right-content -->
+      </div>
+      <div class="btn-group btn-center">
+        <input class="btn-normal gray" type="submit" name="" value="◀︎ 戻る">
+        <input class="btn-normal" type="submit" name="" value="保存">
+      </div><!-- .btn-group -->
+    </form>
+  </div><!-- .form-reset-password-->
+</div><!-- .md-reset-password -->
+<div class="md-terms-register scroll-normal">
+  <h3 class="title">新規登録</h3>
+  <p class="margin-bottom">依頼内容確認画面 この内容で依頼します。</p>
+  <h4 class="title-content">機密保持契約書.docx</h4>
+  <div class="content-terms-register ">
+    <div class="content-inner">
+      <p>秘密保持契約書<br>
+        株式会社○○（以下「甲」という）と株式会社○○（以下「乙」という）とは、甲が○○業務を乙に委託し、乙がこれを実施する事に関連して、甲から乙に対しまたは乙から甲に対し開示される秘密情報、個人<br>情報
+        の取扱いに関し、次の通り契約を締結する。</p>
+      <p>第１条（秘密情報）</p>
+      <p>本契約において秘密情報（以下「本秘密情報」という）とは、文書・口頭その他有形無形を問わず、本件に関連して甲および乙のうち情報を開示する側（以下「情報開示者」という）から甲および乙のうちその開示
+        された情報を受領する側（以下「情報受領者」という）に対し、開示される一切の情報のうち、情報開示者が秘密情報として明示的に特定したものをいう。但し、次に定めるものは、本秘密情報から除外するものと
+        する。</p>
+      <p>(1)情報開示者が開示した際に既に公知であった情報<br>
+        (2)情報開示者が開示した後に情報受領者の責めによらないで公知となった情報<br>
+        (3)情報開示者が開示した際に既に情報受領者が秘密保持義務を負うことなく保持していた情報<br>
+        (4)情報受領者が秘密保持義務を負うことなく独自に第三者から入手した情報<br>
+        (5)情報受領者が情報開示者から開示された情報によらずして独自に開発した情報</p>
+      <p>第２条（個人情報）<br>
+        本契約において個人情報（以下「本個人情報」という）とは「個人情報の保護に関する法律」第2条に定める情報で情報開示者が個人情報である旨を指定した情報をいい、公知であるかどうかは問わない。</p>
+      <p>第３条（秘密情報、個人情報保持）<br>
+        1．	情報受領者は、本秘密情報について厳に秘密を保持し、本件に関連して本秘密情報を必要とする情報受領者の役職員、情報受領者が依頼する弁護士・公認会計士・アドバイザー等（以下「本受領権者」という<br>
+        ）以外の者に対し本秘密情報を一切開示または漏洩してはならず、また、本件に関連する以外の目的で本秘密情報を使用・流用してはならない。<br>
+        2．	情報受領者は、本個人情報について厳に秘密を保持し、情報開示者の書面による承諾を得ることなく、本件に関連する以外の目的のために利用し、または第三者に利情報受領者は、本秘密情報について厳に秘<br>
+        密を保持し、本件に関連して本秘密情報を必要とする情報受領者の役職員、情報受領者が依頼する弁護士・公認会計士・アドバイザー等（以下「本受領権者」という）情報受領者は、本個人情報について厳に秘密を<br>
+        保持し、情報開示者の書面による承諾を得ることなく、本件に関連する以外の目的のために利用し、または第三者に利情報受領者は<br>
+        ３．	情報受領者は、本個人情報について厳に秘密を保持し、情報開示者の書面による承諾を得ることなく、本件に関連する以外の目的のために利用し、または第三者に利情報受領者は、本秘密情報について厳に秘<br>
+        密を保持し、本件に関連して本秘密情報を必要とする情報受領者の役職員、情報受領者が依頼する弁護士・公認会計士・アドバイザー等</p>
+        <p>第３条（秘密情報、個人情報保持）<br>
+          1．	情報受領者は、本秘密情報について厳に秘密を保持し、本件に関連して本秘密情報を必要とする情報受領者の役職員、情報受領者が依頼する弁護士・公認会計士・アドバイザー等（以下「本受領権者」という<br>
+          ）以外の者に対し本秘密情報を一切開示または漏洩してはならず、また、本件に関連する以外の目的で本秘密情報を使用・流用してはならない。<br>
+          2．	情報受領者は、本個人情報について厳に秘密を保持し、情報開示者の書面による承諾を得ることなく、本件に関連する以外の目的のために利用し、または第三者に利情報受領者は、本秘密情報について厳に秘<br>
+          密を保持し、本件に関連して本秘密情報を必要とする情報受領者の役職員、情報受領者が依頼する弁護士・公認会計士・アドバイザー等（以下「本受領権者」という）情報受領者は、本個人情報について厳に秘密を<br>
+          保持し、情報開示者の書面による承諾を得ることなく、本件に関連する以外の目的のために利用し、または第三者に利情報受領者は<br>
+          ３．	情報受領者は、本個人情報について厳に秘密を保持し、情報開示者の書面による承諾を得ることなく、本件に関連する以外の目的のために利用し、または第三者に利情報受領者は、本秘密情報について厳に秘<br>
+          密を保持し、本件に関連して本秘密情報を必要とする情報受領者の役職員、情報受領者が依頼する弁護士・公認会計士・アドバイザー等</p>
+    </div><!-- .content-inner -->
+  </div><!-- .content-terms-register -->
+  <div class="ui checkbox">
+    <div class="center">
+      <input type="checkbox" name="example">
+      <label class="label-center">この依頼内容は他のユーザーには見えないようにする</label>
+    </div>
+  </div>
+  <div class="btn-group btn-center">
+    <input class="btn-normal gray" type="submit" name="" value="◀︎ 戻る">
+    <input class="btn-normal" type="submit" name="" value="レビュー依頼">
+  </div><!-- .btn-group -->
+</div><!-- .md-terms-register -->
+<div class="md-check-upload">
+  <h3 class="title">再レビュー依頼 ファイルアップロード</h3>
+  <p class="margin-bottom">以下の内容でファイルをアップロードします。</p>
+  <div class="meta-content clearfix">
+    <div class="item item-1">
+      <label for="">契約書タイトル</label>
+      <p>機密保持に関する契約書</p>
+    </div><!-- .item -->
+    <div class="item item-2">
+      <label for="">対象者</label>
+      <p>契約対象者：株式会社あいうえお</p>
+    </div><!-- .item -->
+    <div class="item item-3">
+      <label for="">Rev</label>
+      <p>2</p>
+    </div><!-- .item -->
+  </div><!-- .meta-content -->
+  <div class="two-col clearfix">
+    <div class="col-content">
+      <h4>前回の契約書</h4>
+      <div class="wrapper-scroll inner-content-scroll-1 scroll-normal">
+        <div class="inner-content">
+          <p>秘密保持契約書（sample）</p>
+          <p>秘密保持契約書
+            株式会社○○（以下「甲」という）と株式会社○○（以下「乙」という）とは、甲が○○業務を乙に
+            委託し、乙がこれを実施する事に関連して、甲から乙に対しまたは乙から甲に対し開示される秘密情
+            報、個人情報の取扱いに関し、次の通り契約を締結する。</p>
+          <p>第１条（秘密情報）</p>
+          <p>本契約において秘密情報（以下「本秘密情報」という）とは、文書・口頭その他有形無形を問わず、
+            本件に関連して甲および乙のうち情報を開示する側（以下「情報開示者」という）から甲および乙の
+            うちその開示された情報を受領する側（以下「情報受領者」という）に対し、開示される一切の情報
+            のうち、情報開示者が秘密情報として明示的に特定したものをいう。但し、次に定めるものは、本秘
+            密情報から除外するものとする。</p>
+          <p>(1)情報開示者が開示した際に既に公知であった情報
+            (2)情報開示者が開示した後に情報受領者の責めによらないで公知となった情報
+            (3)情報開示者が開示した際に既に情報受領者が秘密保持義務を負うことなく保持していた情報
+            (4)情報受領者が秘密保持義務を負うことなく独自に第三者から入手した情報
+            (5)情報受領者が情報開示者から開示された情報によらずして独自に開発した情報</p>
+          <p>第２条（個人情報）
+            本契約において個人情報（以下「本個人情報」という）とは「個人情報の保護に関する法律」第2条
+            に定める情報で情報開示者が個人情報である旨を指定した情報をい</p>
+          <p>第２条（個人情報）
+            本契約において個人情報（以下「本個人情報」という）とは「個人情報の保護に関する法律」第2条
+            に定める情報で情報開示者が個人情報である旨を指定した情報をい</p>
+          <p>第２条（個人情報）
+            本契約において個人情報（以下「本個人情報」という）とは「個人情報の保護に関する法律」第2条
+            に定める情報で情報開示者が個人情報である旨を指定した情報をい</p>
+        </div><!-- .inner-content -->
+      </div><!-- .wrapper-scroll -->
+    </div><!-- .col-content -->
+    <div class="col-content">
+      <h4>前回の契約書</h4>
+      <div class="wrapper-content wrapper-scroll inner-content-scroll-1 scroll-normal">
+        <div class="inner-content">
+          <p>秘密保持契約書（sample）</p>
+          <p>秘密保持契約書
+            株式会社○○（以下「甲」という）と株式会社○○（以下「乙」という）とは、甲が○○業務を乙に
+            委託し、乙がこれを実施する事に関連して、甲から乙に対しまたは乙から甲に対し開示される秘密情
+            報、個人情報の取扱いに関し、次の通り契約を締結する。</p>
+          <p>第１条（秘密情報）</p>
+          <p>本契約において秘密情報（以下「本秘密情報」という）とは、文書・口頭その他有形無形を問わず、
+            本件に関連して甲および乙のうち情報を開示する側（以下「情報開示者」という）から甲および乙の
+            うちその開示された情報を受領する側（以下「情報受領者」という）に対し、開示される一切の情報
+            のうち、情報開示者が秘密情報として明示的に特定したものをいう。但し、次に定めるものは、本秘
+            密情報から除外するものとする。</p>
+          <p>(1)情報開示者が開示した際に既に公知であった情報
+            (2)情報開示者が開示した後に情報受領者の責めによらないで公知となった情報
+            (3)情報開示者が開示した際に既に情報受領者が秘密保持義務を負うことなく保持していた情報
+            (4)情報受領者が秘密保持義務を負うことなく独自に第三者から入手した情報
+            (5)情報受領者が情報開示者から開示された情報によらずして独自に開発した情報</p>
+          <p>第２条（個人情報）
+            本契約において個人情報（以下「本個人情報」という）とは「個人情報の保護に関する法律」第2条
+            に定める情報で情報開示者が個人情報である旨を指定した情報をい</p>
+          <p>第２条（個人情報）
+            本契約において個人情報（以下「本個人情報」という）とは「個人情報の保護に関する法律」第2条
+            に定める情報で情報開示者が個人情報である旨を指定した情報をい</p>
+          <p>第２条（個人情報）
+            本契約において個人情報（以下「本個人情報」という）とは「個人情報の保護に関する法律」第2条
+            に定める情報で情報開示者が個人情報である旨を指定した情報をい</p>
+        </div><!-- .inner-content -->
+      </div><!-- .wrapper-scoll-->
+    </div><!-- .col-content -->
+  </div><!-- .two-col -->
+  <div class="ui checkbox">
+    <div class="center">
+      <input type="checkbox" name="example">
+      <label class="label-center">この依頼内容は他のユーザーには見えないようにする</label>
+    </div>
+  </div>
+  <div class="btn-group btn-center">
+    <input class="btn-normal gray" type="submit" name="" value="◀︎ 戻る">
+    <input class="btn-normal" type="submit" name="" value="レビュー依頼">
+  </div><!-- .btn-group -->
+</div><!--.md-check-upload -->
+</main>
+<!-- /.page-main -->
+
+<footer class="page-footer">
+  
+</footer>
+<!-- /.page-footer -->
+
+<script src="vendor/jquery/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="vendor/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+<script src="vendor/semantic/semantic.min.js" type="text/javascript"></script>
+<script src="vendor/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+<script src="vendor/smartwizard/jquery.smartwizard.js" type="text/javascript"></script>
+<script src="vendor/tablesorter/jquery.tablesorter.js" type="text/javascript"></script>
+<script src="vendor/dropzone/dropzone.js" type="text/javascript"></script>
+<script src="scripts/main.js" type="text/javascript"></script>
+</body>
+</html>
+

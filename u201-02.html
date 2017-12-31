@@ -1,0 +1,485 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ja"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="ja"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ja"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="ja"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Example</title>
+  <link  href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link  href="vendor/fontawesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link  href="vendor/semantic/semantic.min.css" rel="stylesheet" media="screen">
+  <link  href="vendor/mCustomScrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" media="screen">
+  <link  href="vendor/smartwizard/smartwizard.css" rel="stylesheet" media="screen">  
+  <link  href="vendor/dropzone/dropzone.css" rel="stylesheet" media="screen">
+  <link  href="css/style.css" rel="stylesheet" media="screen">
+  <script src="vendor/initializr/modernizr-2.8.3-respond-1.4.2.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="container">
+    <div class="md-top-header">
+      <div class="logo">
+        <a href="#"><img src="images/logo.png" alt=""></a>
+      </div><!-- .logo -->
+    </div><!-- .md-top-header -->
+  </div><!-- .container-->
+  <div class="bk-nav-destop">
+    <div class="container">
+      <div class="md-nav-option">
+        <ul>
+          <li class="has-sub-menu has-user">
+            <a href="#">
+              <div class="avatar">
+                <img src="images/icon-user.png" alt="">
+              </div><!-- .avatar -->
+              <span>田中 祐介</span>
+            </a>
+            <ul>
+              <li><a href="#">田中 祐介</a></li>
+              <li><a href="#">田中 祐介</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- .md-nav-option -->
+    </div><!-- .container -->
+  </div><!-- .bk-nav-destop -->
+</header>
+<!-- /.page-header -->
+
+<main class="page-main page-main-01">
+  <div class="container">
+    <div class="ctn-page-has-sidebar">
+      <div class="bk-sidebar">
+        <div class="md-nav-sidebar">
+          <ul>
+            <li class="current-menu-item"><a href="#">未レビュー/レビュー中</a></li>
+            <li><a href="#">レビュー済み</a></li>
+            <li><a href="#">却下・取消済</a></li>
+          </ul>
+        </div><!-- .md-nav-sidebar -->
+      </div><!-- .md-sidebar -->
+      <div class="bk-main-content">
+        <div class="md-title-normal">
+          <h1>契約書リスト</h1>
+        </div><!-- .md-title-normal -->
+        <div class="meta-top clearfix">
+          <div class="md-search">
+            <form>
+              <input type="text" name="search" placeholder="タイトルまたは取引先名で検索">
+              <input type="submit" value="">
+            </form>
+          </div><!-- .md-search -->
+          <div class="btn-group aln-right">
+            <a href="#" class="btn-normal red">新規アップロード</a>
+          </div><!-- .aln-center -->
+        </div><!-- .meta-top -->
+        <table class="table table-normal md-table-02 tbl-row-space table-sorter table-sorter-2 tbl-light-blue">
+          <thead>
+            <tr>
+              <th class="option w35">
+                <div class="md-dropdown-option">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">取引先名</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="female">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="male">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="female">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="male">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="female">最新【2017.06.14アップロード</div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th class="w20">
+                <div class="md-dropdown-option">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">契約書タイトル</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="female">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="male">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="female">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="male">最新【2017.06.14アップロード</div>
+                      <div class="item" data-value="female">最新【2017.06.14アップロード</div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+              <th class="w15">ファイル名</th>
+              <th class="w5 aln-center">Rev.</th>
+              <th class="w5">依頼日時</th>
+              <th class="w5">フィード<br>バック日時</th>
+              <th class="w5 avatar aln-center">登録<br>ユーザー</th>
+              <th class="w15 aln-center">操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>(株)あいうえおかきくけこさしすせそなにぬ</td>
+              <td>業務委託基本契約書業務委託基本契</td>
+              <td><a href="#" class="text-decoration">ここの文字は最大20字以降は…で表示...docx</a></td>
+              <td class="rev">
+                <div class="rev-dropdown">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">1</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">1</div>
+                      <div class="item" data-value="female">2</div>
+                      <div class="item" data-value="male">3</div>
+                      <div class="item" data-value="female">4</div>
+                      <div class="item" data-value="male">5</div>
+                      <div class="item" data-value="female">6</div>
+                    </div>
+                  </div>
+                </div><!-- . rev-dropdown -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2018.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td class="aln-center">
+                <div class="avatar avtar-defaut">
+                  <div class="name">
+                      <span>務を</span>
+                  </div><!-- .name -->
+                  <img src="images/avatar-defaut.png" alt="">
+                </div><!-- .avatar-defauta -->
+              </td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">開始<span>▶︎</span></a></td>
+            </tr>
+            <tr>
+              <td>(合)あいうえ</td>
+              <td>ここの文字は最大20文字でこれで最大文字数</td>
+              <td><a href="#" class="text-decoration icon-active">aosdhwew.docx</a></td>
+              <td class="rev">
+                <div class="rev-dropdown">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">1</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">1</div>
+                      <div class="item" data-value="female">2</div>
+                      <div class="item" data-value="male">3</div>
+                      <div class="item" data-value="female">4</div>
+                      <div class="item" data-value="male">5</div>
+                      <div class="item" data-value="female">6</div>
+                    </div>
+                  </div>
+                </div><!-- . rev-dropdown -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td class="aln-center">
+                <div class="avatar avtar-defaut">
+                  <div class="name">
+                      <span>務を</span>
+                  </div><!-- .name -->
+                  <img src="images/avatar-defaut.png" alt="">
+                </div><!-- .avatar-defauta -->
+              </td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">開始<span>▶︎</span></a></td>
+            </tr>
+            <tr>
+              <td>(有)あいうえおかき</td>
+              <td>業務委託基本契約書</td>
+              <td><a href="#" class="text-decoration icon-active">erigjsldkfjwe.docx</a></td>
+              <td class="rev">
+                <div class="rev-dropdown">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">2</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">1</div>
+                      <div class="item" data-value="female">2</div>
+                      <div class="item" data-value="male">3</div>
+                      <div class="item" data-value="female">4</div>
+                      <div class="item" data-value="male">5</div>
+                      <div class="item" data-value="female">6</div>
+                    </div>
+                  </div>
+                </div><!-- . rev-dropdown -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td class="aln-center">
+                <div class="avatar avtar-defaut">
+                  <div class="name">
+                      <span>務を</span>
+                  </div><!-- .name -->
+                  <img src="images/avatar-defaut.png" alt="">
+                </div><!-- .avatar-defauta -->
+              </td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">開始<span>▶︎</span></a></td>
+            </tr>
+            <tr>
+              <td>あいうえおかきくけこ(株)</td>
+              <td>０１業務委託</td>
+              <td><a href="#" class="text-decoration">ここの文字は最大20字以降は…で表示...docx</a></td>
+              <td class="rev">
+                <div class="rev-dropdown">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">2</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">1</div>
+                      <div class="item" data-value="female">2</div>
+                      <div class="item" data-value="male">3</div>
+                      <div class="item" data-value="female">4</div>
+                      <div class="item" data-value="male">5</div>
+                      <div class="item" data-value="female">6</div>
+                    </div>
+                  </div>
+                </div><!-- . rev-dropdown -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td class="aln-center">
+                <div class="avatar avtar-defaut">
+                  <div class="name">
+                      <span>務を</span>
+                  </div><!-- .name -->
+                  <img src="images/avatar-defaut.png" alt="">
+                </div><!-- .avatar-defauta -->
+              </td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">開始<span>▶︎</span></a></td>
+            </tr>
+            <tr>
+              <td>(株)あいうえおかきくけ こさしすせそ</td>
+              <td>０１業務委託基本契約書業務委託基本契</td>
+              <td><a href="#" class="text-decoration">edkfjwe.docx</a></td>
+              <td class="rev">
+                <div class="rev-dropdown">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">4</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">1</div>
+                      <div class="item" data-value="female">2</div>
+                      <div class="item" data-value="male">3</div>
+                      <div class="item" data-value="female">4</div>
+                      <div class="item" data-value="male">5</div>
+                      <div class="item" data-value="female">6</div>
+                    </div>
+                  </div>
+                </div><!-- . rev-dropdown -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td class="aln-center">
+                <div class="avatar avtar-defaut">
+                  <div class="name">
+                      <span>務を</span>
+                  </div><!-- .name -->
+                  <img src="images/avatar-defaut.png" alt="">
+                </div><!-- .avatar-defauta -->
+              </td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">開始<span>▶︎</span></a></td>
+            </tr>
+            <tr>
+              <td>(株)あいうえおかきくけこさしすせ</td>
+              <td>ここの文字は最大20文字です</td>
+              <td><a href="#" class="text-decoration icon-active">asdpefojwp...docx</a></td>
+              <td class="rev">
+                <div class="rev-dropdown">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">1</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">2</div>
+                      <div class="item" data-value="female">2</div>
+                      <div class="item" data-value="male">3</div>
+                      <div class="item" data-value="female">4</div>
+                      <div class="item" data-value="male">5</div>
+                      <div class="item" data-value="female">6</div>
+                    </div>
+                  </div>
+                </div><!-- . rev-dropdown -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td class="aln-center">
+                <div class="avatar avtar-defaut">
+                  <div class="name">
+                      <span>務を</span>
+                  </div><!-- .name -->
+                  <img src="images/avatar-defaut.png" alt="">
+                </div><!-- .avatar-defauta -->
+              </td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">開始<span>▶︎</span></a></td>
+            </tr>
+            <tr>
+              <td>(有)あいうえおかき</td>
+              <td>０１業務委託基本契約書業務委託基本契約書</td>
+              <td><a href="#" class="text-decoration">ここの文字は最大20字です.docx</a></td>
+              <td class="rev">
+                <div class="rev-dropdown">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">1</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">1</div>
+                      <div class="item" data-value="female">2</div>
+                      <div class="item" data-value="male">3</div>
+                      <div class="item" data-value="female">4</div>
+                      <div class="item" data-value="male">5</div>
+                      <div class="item" data-value="female">6</div>
+                    </div>
+                  </div>
+                </div><!-- . rev-dropdown -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td class="aln-center">
+                <div class="avatar avtar-defaut">
+                  <div class="name">
+                      <span>務を</span>
+                  </div><!-- .name -->
+                  <img src="images/avatar-defaut.png" alt="">
+                </div><!-- .avatar-defauta -->
+              </td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">開始<span>▶︎</span></a></td>
+            </tr>
+            <tr>
+              <td>あいうえおかきくけこ(株)</td>
+              <td>業務委託</td>
+              <td><a href="#" class="text-decoration">ここの文字は最大20字です.docx</a></td>
+              <td class="rev">
+                <div class="rev-dropdown">
+                  <div class="ui dropdown">
+                    <input type="hidden" name="gender">
+                    <div class="default text">12</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                      <div class="item" data-value="male">1</div>
+                      <div class="item" data-value="female">2</div>
+                      <div class="item" data-value="male">3</div>
+                      <div class="item" data-value="female">4</div>
+                      <div class="item" data-value="male">5</div>
+                      <div class="item" data-value="female">6</div>
+                    </div>
+                  </div>
+                </div><!-- . rev-dropdown -->
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td>
+                <div class="date">
+                  <span>2017.01.23</span><span>AM 11:22</span>
+                </div>
+              </td>
+              <td class="aln-center">
+                <div class="avatar avtar-defaut">
+                  <div class="name">
+                      <span>務を</span>
+                  </div><!-- .name -->
+                  <img src="images/avatar-defaut.png" alt="">
+                </div><!-- .avatar-defauta -->
+              </td>
+              <td class="aln-center"><a href="#" class="btn-normal btn-arrow">開始<span>▶︎</span></a></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="md-pagination">
+          <ul class="md-pagination">
+            <li><a class="prev" href="#">Prev</a></li>
+            <li><a class="active page-number" href="#">1</a></li>
+            <li><a href="#" class=" page-number">2</a></li>
+            <li><a href="#" class=" page-number">3</a></li>
+            <li><a class="next" href="#">Next</a></li>
+          </ul>
+        </div><!-- .md-pagination -->
+      </div><!-- .bk-main-content -->
+    </div><!-- .ctn-page-wrapper -->
+  </div>
+</main>
+<!-- /.page-main -->
+
+<footer class="page-footer">
+  
+</footer>
+<!-- /.page-footer -->
+
+<script src="vendor/jquery/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="vendor/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+<script src="vendor/semantic/semantic.min.js" type="text/javascript"></script>
+<script src="vendor/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+<script src="vendor/smartwizard/jquery.smartwizard.js" type="text/javascript"></script>
+<script src="vendor/tablesorter/jquery.tablesorter.js" type="text/javascript"></script>
+<script src="vendor/dropzone/dropzone.js" type="text/javascript"></script>
+<script src="scripts/main.js" type="text/javascript"></script>
+</body>
+</html>
+

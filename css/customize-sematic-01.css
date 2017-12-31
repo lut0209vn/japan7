@@ -1,0 +1,80 @@
+/* customize semantic ui
+ -----------------------------------------------------*/
+.ui.form .form-control.normal {
+  border: 3px solid #eeeeee;
+  border-radius: 0px;
+}
+
+.ui.radio.checkbox .box:before, .ui.radio.checkbox label:before {
+  border: 2px solid #a0a0a0;
+  width: 18px;
+  height: 18px;
+  border-radius: 0em;
+}
+
+.ui.checkbox .box::before, .ui.checkbox label::before {
+  border: 2px solid #a0a0a0;
+  width: 18px;
+  height: 18px;
+  border-radius: 0em;
+}
+
+.ui.checkbox input:checked ~ .box:after, .ui.checkbox input:checked ~ label:after {
+  content: "" !important;
+}
+
+.ui.radio.checkbox input:checked ~ .box:after, .ui.radio.checkbox input:checked ~ label:after {
+  background-color: transparent;
+}
+
+.ui.radio.checkbox .box:after, .ui.radio.checkbox label:after {
+  color: #4f4f4f;
+  content: "";
+  width: 17px;
+  height: 17px;
+  left: 1px;
+  top: -1px;
+  display: inline-block;
+  background: url(../images/bg-check-box.png) no-repeat center center;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+       -o-transform: scale(1);
+          transform: scale(1);
+  border-radius: 0em;
+}
+
+.ui.checkbox input:checked ~ .box:after, .ui.checkbox input:checked ~ label:after {
+  color: #4f4f4f;
+  content: "";
+  width: 18px;
+  height: 18px;
+  left: 1px;
+  top: -1px;
+  display: inline-block;
+  background: url(../images/bg-check-box.png) no-repeat center center;
+}
+
+.ui input[type="checkbox"] {
+  border: 1px solid #000;
+}
+.ui.checkbox {
+  vertical-align: top;
+}
+.ui.checkbox label {
+  color: #4f4f4f;
+  font-size: 13px;
+}
+.ui.checkbox.checked label {
+  font-weight: 700;
+}
+
+.modals.dimmer .ui.modal {
+  border: 2px solid #cacfd4;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0;
+}
+
+.ui.dimmer {
+  background: rgba(255, 255, 255, 0.5);
+}
